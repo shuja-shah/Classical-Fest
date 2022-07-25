@@ -103,3 +103,44 @@ a {
   margin: 0;
   padding: 0;
 }
+
+.program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+  background-color: #272932;
+}
+
+#type {
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 1.9);
+  font-weight: 600;
+  color: var(--clr-main);
+  margin: 0;
+  padding-top: 10px;
+  letter-spacing: 0.87px;
+}
+
+.line {
+  width: calc(var(--fs-main) / 1);
+  height: 2px;
+  background-color: var(--clr-main-text);
+  margin: 13px 0;
+}
+
+.program-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: calc(var(--fs-main) * 4.8);
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 48px;
+}
+
+.program-item img {
+  width: auto;
+  height: 70px;
+}
