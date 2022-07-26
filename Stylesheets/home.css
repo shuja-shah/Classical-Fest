@@ -144,3 +144,35 @@ a {
   width: auto;
   height: 70px;
 }
+
+
+.artist-img{
+    width: auto;
+    height: 150px;
+    border: 5px solid var(--clr-main-text);
+    border-radius: 5px;
+}
+#Guests{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: center;
+}
+.art{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: center;
+}
+.more{
+    display: none;
+}
