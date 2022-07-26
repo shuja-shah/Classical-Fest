@@ -125,14 +125,14 @@ const absorb = document.getElementById('absorb');
 const more = document.querySelectorAll('.more');
 
 expand.addEventListener('click', () => {
-  for (let i = 0; i < more.length; i++) {
+  for (let i = 0; i < more.length; i += 1) {
     more[i].classList.remove('more');
   }
   expand.style.opacity = '0';
 });
 
 absorb.addEventListener('click', () => {
-  for (let k = 0; k < more.length; k++) {
+  for (let k = 0; k < more.length; k += 1) {
     more[k].classList.add('more');
   }
   expand.style.opacity = '1';
