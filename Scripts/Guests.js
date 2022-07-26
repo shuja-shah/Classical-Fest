@@ -1,6 +1,7 @@
 const artist = [
   {
     name: "Abida Parveen",
+    sub : "Sufi and Indus Folk Songs",
     id: "0",
     description:
       "Abida Parveen is a sufi singer from Sindh, She Specalizes in the art of" +
@@ -9,6 +10,7 @@ const artist = [
   },
   {
     name: "Deva Premal",
+    sub : "Spritual and Sanskritist",
     id: "1",
     description:
       "Deva Premal is a singer known for introducing Sanskrit mantras into the mainstream" +
@@ -17,6 +19,7 @@ const artist = [
   },
   {
     name: "Roger Waters",
+    sub : "CO Founder of pink floyd band",
     id: "2",
     description:
       "George Roger Waters is an English musician, singer songwriter and composer" +
@@ -25,6 +28,7 @@ const artist = [
   },
   {
     name: "Ludovico Einaudi",
+    sub : "Italian Piano Composer",
     id: "3",
     description:
       "Ludovico Maria Enrico Einaudi OMRI is an Italian pianist and composer. Trained at the Conservatorio Verdi in Milan" +
@@ -33,6 +37,7 @@ const artist = [
   },
   {
     name: "Batzorig Vaanchig",
+    sub : "Mongolian Throat Singner",
     id: "4",
     description:
       "Batzorig Vaanchig Is an Mongolion Thorat Singer who specializes in igniting" +
@@ -41,6 +46,7 @@ const artist = [
   },
   {
     name: "Andre Watts",
+    sub : "American Singer",
     id: "5",
     description:
       "Andre Watts is an American singer, songwriter, and musician. He is known for his" +
@@ -54,34 +60,46 @@ const template = `
 <div class="line"></div>
 <section class="container">
     <article class ="art 1"> 
-        <img src="${artist[0].img}" alt="${artist[0].name}" class="artist-img">
         <h4 class="artist-name">${artist[0].name}</h4>
+        <div class ="line"></div>
+        <p class="artist-sub">${artist[0].sub}</p>
+        <img src="${artist[0].img}" alt="${artist[0].name}" class="artist-img">
         <p class="artist-description">${artist[0].description}</p>
     </article>
     <article class ="art 2">
-        <img src="${artist[1].img}" alt="${artist[1].name}" class="artist-img">
         <h4 class="artist-name">${artist[1].name}</h4>
+        <div class ="line"></div>
+        <p class ="sub">${artist[1].sub}</p>
+        <img src="${artist[1].img}" alt="${artist[1].name}" class="artist-img">
         <p class="artist-description">${artist[1].description}</p>
     </article>
     <button class="btn-more" id="expand">Show More</button>
     <article class ="art 3 more">
-        <img src="${artist[2].img}" alt="${artist[2].name}" class="artist-img">
         <h4 class="artist-name">${artist[2].name}</h4>
+        <div class="line"></div>
+        <p class ="sub"> ${artist[2].sub}</p>
+        <img src="${artist[2].img}" alt="${artist[2].name}" class="artist-img">
         <p class="artist-description">${artist[2].description}</p>
     </article>
     <article class ="art 4 more">
-        <img src="${artist[3].img}" alt="${artist[3].name}" class="artist-img">
         <h4 class="artist-name">${artist[3].name}</h4>
+        <div class="line"></div>
+        <p class = "sub">${artist[3].sub}</p>
+        <img src="${artist[3].img}" alt="${artist[3].name}" class="artist-img">
         <p class="artist-description">${artist[3].description}</p>
     </article>
     <article class ="art 5 more">
-        <img src="${artist[4].img}" alt="${artist[4].name}" class="artist-img">
         <h4 class="artist-name">${artist[4].name}</h4>
+        <div class="line"></div>
+        <p class = "sub">${artist[4].sub}</p>
+        <img src="${artist[4].img}" alt="${artist[4].name}" class="artist-img">
         <p class="artist-description">${artist[4].description}</p>
     </article>
     <article class ="art 6 more">
-        <img src="${artist[5].img}" alt="${artist[5].name}" class="artist-img">
         <h4 class="artist-name">${artist[5].name}</h4>
+        <div class ="line"></div>
+        <p class = "subtitle">${artist[5].sub}</p>
+        <img src="${artist[5].img}" alt="${artist[5].name}" class="artist-img">
         <p class="artist-description">${artist[5].description}</p>
     </article>
     <button class="btn-less more" id="absorb">Show Less</button>
