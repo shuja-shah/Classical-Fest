@@ -1,10 +1,10 @@
-const navi = document.getElementById("hamburger");
-const head = document.querySelector("header");
-const main = document.getElementById("man");
-const x = document.getElementById("btn-close");
-const navigation = document.getElementById("nav-bar");
-const links = document.getElementById("navBarr");
-const section = document.getElementById("home");
+const navi = document.getElementById('hamburger');
+const head = document.querySelector('header');
+const main = document.getElementById('man');
+const x = document.getElementById('btn-close');
+const navigation = document.getElementById('nav-bar');
+const links = document.getElementById('navBarr');
+const section = document.getElementById('home');
 // navi.addEventListener("click", () => {
 //   main.style.opacity = "0";
 //   navigation.style.display = "block";
