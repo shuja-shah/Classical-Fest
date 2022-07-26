@@ -57,50 +57,62 @@ const artist = [
 
 const template = `
 <h3 class="type">Featured Artist</h3>
-<div class="line"></div>
+<div class="line line1"></div>
 <section class="container">
-    <article class ="art 1"> 
-        <h4 class="artist-name">${artist[0].name}</h4>
-        <div class ="line"></div>
-        <p class="artist-sub">${artist[0].sub}</p>
-        <img src="${artist[0].img}" alt="${artist[0].name}" class="artist-img">
-        <p class="artist-description">${artist[0].description}</p>
+    <article class ="art 1">
+        <img src="${artist[0].img}" alt="${artist[0].name}" class="artist-img"> 
+        <div class ="arti>
+            <h4 class="artist-name">${artist[0].name}</h4>
+            <p class="sub">${artist[0].sub}</p>
+            <div class ="line line2"></div>
+            <p class="artist-description">${artist[0].description}</p>
+        </div>
     </article>
     <article class ="art 2">
-        <h4 class="artist-name">${artist[1].name}</h4>
-        <div class ="line"></div>
-        <p class ="sub">${artist[1].sub}</p>
         <img src="${artist[1].img}" alt="${artist[1].name}" class="artist-img">
-        <p class="artist-description">${artist[1].description}</p>
+        <div class ="arti">
+            <h4 class="artist-name">${artist[1].name}</h4>
+            <p class ="sub">${artist[1].sub}</p>
+            <div class ="line line2"></div>
+            <p class="artist-description">${artist[1].description}</p>
+        </div>
     </article>
     <button class="btn-more btn-sec" id="expand">MORE</button>
     <article class ="art 3 more">
-        <h4 class="artist-name">${artist[2].name}</h4>
-        <div class="line"></div>
-        <p class ="sub"> ${artist[2].sub}</p>
         <img src="${artist[2].img}" alt="${artist[2].name}" class="artist-img">
-        <p class="artist-description">${artist[2].description}</p>
+        <div class ="arti">
+            <h4 class="artist-name">${artist[2].name}</h4>
+            <p class ="sub"> ${artist[2].sub}</p>
+            <div class="line line2"></div>
+            <p class="artist-description">${artist[2].description}</p>
+        </div>
     </article>
     <article class ="art 4 more">
-        <h4 class="artist-name">${artist[3].name}</h4>
-        <div class="line"></div>
-        <p class = "sub">${artist[3].sub}</p>
         <img src="${artist[3].img}" alt="${artist[3].name}" class="artist-img">
-        <p class="artist-description">${artist[3].description}</p>
+        <div class="arti">
+            <h4 class="artist-name">${artist[3].name}</h4>
+            <p class = "sub">${artist[3].sub}</p>
+            <div class="line line2"></div>
+            <p class="artist-description">${artist[3].description}</p>
+        </div>
     </article>
     <article class ="art 5 more">
-        <h4 class="artist-name">${artist[4].name}</h4>
-        <div class="line"></div>
-        <p class = "sub">${artist[4].sub}</p>
         <img src="${artist[4].img}" alt="${artist[4].name}" class="artist-img">
-        <p class="artist-description">${artist[4].description}</p>
+        <div class="arti">
+            <h4 class="artist-name">${artist[4].name}</h4>
+            <p class = "sub">${artist[4].sub}</p>
+            <div class="line line2"></div>
+            <p class="artist-description">${artist[4].description}</p>
+        </div>
     </article>
     <article class ="art 6 more">
-        <h4 class="artist-name">${artist[5].name}</h4>
-        <div class ="line"></div>
-        <p class = "subtitle">${artist[5].sub}</p>
         <img src="${artist[5].img}" alt="${artist[5].name}" class="artist-img">
-        <p class="artist-description">${artist[5].description}</p>
+        <div class ="arti">
+            <h4 class="artist-name">${artist[5].name}</h4>
+            <p class = "subtitle">${artist[5].sub}</p>
+            <div class ="line line2"></div>
+            <p class="artist-description">${artist[5].description}</p>
+        </div>
     </article>
     <button class="btn-less more btn-sec" id="absorb">LESS</button>
 </section>
