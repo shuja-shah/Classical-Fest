@@ -345,3 +345,102 @@ a {
   margin: 0;
   padding: 0;
 }
+
+@media screen and (min-width: 768px) {
+  #hamburger {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .desktop h3 {
+    margin-left: 50px;
+  }
+
+  #close-btn {
+    display: none;
+  }
+
+  #navBarr li {
+    padding: 14px;
+    font-size: calc(var(--fs-main) / 2.2);
+    font-weight: 600;
+  }
+
+  #navBarr li :hover {
+    color: var(--clr-main-text);
+    border-bottom: 2px solid var(--clr-main-text);
+    transition: 0.1s ease-in-out;
+  }
+
+  #home {
+    display: grid;
+    grid-template-rows: 300px 250px 200px;
+    justify-content: center;
+    margin: 0 0 0 100px;
+    padding: 0 0 0 0;
+  }
+
+  #Introduction h1 {
+    font-size: calc(var(--fs-main) * 2);
+    padding: 0;
+    margin: 0;
+  }
+
+  #Introduction p {
+    font-size: calc(var(--fs-main) / 1.4);
+    font-weight: 400;
+    color: var(--clr-main-text);
+    padding: 0;
+    margin: 0;
+  }
+
+  #context {
+    padding: 0;
+    width: 500px;
+  }
+
+  #context p {
+    font-size: calc(var(--fs-main) / 1.2);
+    text-align: left;
+    font-weight: 400;
+  }
+
+  #role h2 {
+    font-size: large;
+  }
+
+  .program {
+    display: flex;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    background: url('Vector/Program.PNG') repeat;
+    height: 750px;
+  }
+
+  .program-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 35px;
+  }
+
+  .program-item {
+    flex-direction: column;
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+  }
+
+  /*
+.para2{
+    grid-column-start: 2 !important;
+}
+.para3{
+    grid-column-start: 3 !important;
+} */
+}
