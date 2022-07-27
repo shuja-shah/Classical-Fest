@@ -346,6 +346,10 @@ a {
   padding: 0;
 }
 
+.our-partners {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   #hamburger {
     display: none;
@@ -435,30 +439,33 @@ a {
     justify-content: center;
     width: 300px;
   }
-  .btn-sec{
+
+  .btn-sec {
     display: none;
   }
-  .container{
+
+  .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 24px;
     row-gap: 40px;
     justify-content: center;
     padding: 24px 50px;
-    
   }
-  #Sponsors{
+
+  #Sponsors {
     background-color: hsl(228, 5%, 23%);
     display: grid;
     grid-template-rows: 1fr 1fr;
-    
   }
-  .Sponsers-Details{
+
+  .Sponsers-Details {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #partner{
+
+  #partner {
     font-size: calc(var(--fs-main) / 1.4);
     font-weight: 600;
     color: hsl(0, 0%, 60%);
@@ -466,13 +473,15 @@ a {
     padding: 0;
     letter-spacing: 0.9px;
   }
-  .sponsor-container{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
+
+  .sponsor-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
-  .uno{
+
+  .uno {
     font-size: 100px;
-    color:hsl(0, 0%, 50%);
+    color: hsl(0, 0%, 50%);
   }
 }
