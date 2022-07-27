@@ -50,6 +50,7 @@ a {
   color: var(--clr-main-dark);
   padding: 0;
   align-self: flex-start;
+  letter-spacing: 0.9px;
 }
 
 #logi {
@@ -76,6 +77,21 @@ a {
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+}
+
+.social a {
+  color: var(--clr-main-text);
+  padding: 10px;
+}
+
+.copyright p {
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 2.8);
+  font-weight: 600;
+  color: var(--clr-main-dark);
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 #navBarr li a {
@@ -292,4 +308,40 @@ a {
   font-family: "Lato", sans-serif;
   font-size: calc(var(--fs-main) / 2.6);
   text-align: left;
+}
+
+#fot {
+  display: grid;
+}
+
+#fot h3 {
+  font-family: 'COCOGOOSE Regular', sans-serif;
+  font-size: calc(var(--fs-main) / 2.2);
+  font-weight: 700;
+  color: var(--clr-main-dark);
+  padding: 0;
+  align-self: flex-start;
+  letter-spacing: 0.9px;
+}
+
+.last {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: inline-block;
+  margin: 0;
+}
+
+.logi {
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 2);
+  font-weight: 500;
+  color: var(--clr-main-text);
+  margin: 0;
+  padding: 0;
 }
