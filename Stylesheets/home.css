@@ -447,5 +447,32 @@ a {
     padding: 24px 50px;
     
   }
-  
+  #Sponsors{
+    background-color: hsl(228, 5%, 23%);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+  }
+  .Sponsers-Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #partner{
+    font-size: calc(var(--fs-main) / 1.4);
+    font-weight: 600;
+    color: hsl(0, 0%, 60%);
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.9px;
+  }
+  .sponsor-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+  .uno{
+    font-size: 100px;
+    color:hsl(0, 0%, 50%);
+  }
 }
