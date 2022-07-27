@@ -435,12 +435,17 @@ a {
     justify-content: center;
     width: 300px;
   }
-
-  /*
-.para2{
-    grid-column-start: 2 !important;
-}
-.para3{
-    grid-column-start: 3 !important;
-} */
+  .btn-sec{
+    display: none;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 40px;
+    justify-content: center;
+    padding: 24px 50px;
+    
+  }
+  
 }
