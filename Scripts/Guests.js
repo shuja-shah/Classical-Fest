@@ -137,3 +137,12 @@ absorb.addEventListener('click', () => {
   }
   expand.style.opacity = '1';
 });
+
+function desktop() {
+  for (let j = 0; j < more.length; j += 1) {
+    if (window.innerWidth > 768) {
+      more[j].classList.remove('more');
+    }
+  }
+}
+desktop();
