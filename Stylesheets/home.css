@@ -250,14 +250,8 @@ a {
 
 .program-item {
   display: grid;
-
-  /* flex-direction: row;
-  justify-content: space-between;
-  align-items: center; */
   height: calc(var(--fs-main) * 4.8);
   background-color: rgba(255, 255, 255, 0.1);
-
-  /* padding: 24px; */
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
   color: var(--clr-main);
