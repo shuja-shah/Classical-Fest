@@ -97,7 +97,7 @@ a {
   background: url('Vector/dry.png') repeat-x;
   display: grid;
   row-gap: 75px;
-  justify-content: center;
+  justify-items: center;
 }
 
 .heading1 {
@@ -278,4 +278,53 @@ a {
   padding: 0 0 0 20px;
   letter-spacing: 0.6px;
   font-family: 'Lato', sans-serif;
+}
+@media screen and (min-width: 768px) {
+ #ham{
+  display: none;
+ }
+ .desktop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ #endl{
+  display: none;
+ }
+ #nagi li{
+  padding: 14px;
+  font-size: calc(var(--fs-main) / 2.2);
+  font-weight: 600;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nagi :hover {
+  color: var(--clr-main-text);
+  transition: 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+#ffSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: repeat;
+  height: 100%;
+  padding:16px 100px;
+}
+.heading1{
+  font-size: calc(var(--fs-main) * 1.2);
+}
+.P1-items{
+  width: 600px;
+  font-size: calc(var(--fs-main) / 1.4);
+  padding: 48px;
+}
+
+  .p2{
+    background: url('Vector/dry.png');
+    background-position: 90% 90%;
+  }
 }
