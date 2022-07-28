@@ -140,7 +140,8 @@ a {
   align-items: center;
   background-color: var(--clr-main);
 }
-#P2-items{
+
+#P2-items {
   display: grid;
   background-color: var(--clr-main);
   row-gap: 75px;
@@ -154,7 +155,8 @@ a {
   color: var(--clr-main-dark);
   text-align: center;
 }
-.P3 h3{
+
+.P3 h3 {
   font-family: 'Lato', sans-serif;
   font-size: calc(var(--fs-main) / 1.6);
   font-weight: 700;
@@ -163,9 +165,10 @@ a {
   text-align: center;
   letter-spacing: 0.9px;
 }
-.P3-Description{
+
+.P3-Description {
   font-family: 'Lato', sans-serif;
-  font-size: calc(var(--fs-main) / 2.0);
+  font-size: calc(var(--fs-main) / 2);
   font-weight: 600;
   color: var(--clr-main-dark);
   text-align: left;
@@ -173,44 +176,51 @@ a {
   border: 5px solid var(--clr-main);
   background-color: hsla(0, 0%, 90%, 0.9);
 }
-.myLogo{
+
+.myLogo {
   justify-self: center;
   font-size: 48px;
   background-color: hsla(0, 0%, 90%, 0.9);
   padding: 16px 23px;
 }
 
-#spanii{
+#spanii {
   font-size: 30px;
 }
-.meow{
+
+.meow {
   font-family: 'COCOGOOSE Regular', sans-serif !important;
   font-size: 32px;
 }
-#Past{
+
+#Past {
   display: grid;
   justify-items: center;
   row-gap: 25px;
+  padding: 26px 0;
+  background-color: var(--clr-main);
 }
-.festival{
+
+.festival {
   height: 200px;
   width: 300px;
-  background:url('Vector/Event1.PNG') no-repeat;
+  background: url('Vector/Event1.PNG') no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
   font-size: var(--fs-main);
-  color: var(--clr-main) ;
+  color: var(--clr-main);
   font-family: 'Lato', sans-serif;
   letter-spacing: 1.6px;
   padding: 0 30px;
 }
-#secondFestival{
+
+#secondFestival {
   background: url('Vector/Event2.PNG') no-repeat;
 }
 
-.P4-title{
+.P4-title {
   font-family: 'Lato', sans-serif;
   font-size: calc(var(--fs-main) / 1.8);
   font-weight: 600;
@@ -219,5 +229,53 @@ a {
   padding: 0 0 15px 0;
   letter-spacing: 0.5px;
   text-align: center;
-  
+}
+
+#Sponsors {
+  background-color: hsl(228, 5%, 23%);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.Sponsers-Details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#partner {
+  font-size: calc(var(--fs-main) / 1.4);
+  font-weight: 600;
+  color: hsl(0, 0%, 60%);
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.9px;
+}
+
+.sponsor-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.uno {
+  font-size: var(--fs-main);
+  color: hsl(0, 0%, 50%);
+}
+
+#foti {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#foti p {
+  font-size: calc(var(--fs-main) / 3.2);
+  font-weight: 600;
+  color: var(--clr-main-dark);
+  margin: 0;
+  padding: 0 0 0 20px;
+  letter-spacing: 0.6px;
+  font-family: 'Lato', sans-serif;
 }
