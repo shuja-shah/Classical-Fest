@@ -36,7 +36,6 @@ a {
 
 #hamburger {
   padding: 26px 18px;
-  
 }
 
 #logo {
@@ -127,15 +126,16 @@ a {
   padding: 0;
   letter-spacing: 1.3px;
 }
-#Introduction h1 ::after{
-    content: '';
-    position: absolute;
-    top: -7%;
-    left: 80%;
-    background: url('Vector/music.png') no-repeat;
-    height: 25px;
-    width: 25px;
-    background-size: cover;
+
+#Introduction h1 ::after {
+  content: '';
+  position: absolute;
+  top: -7%;
+  left: 80%;
+  background: url('Vector/music.png') no-repeat;
+  height: 25px;
+  width: 25px;
+  background-size: cover;
 }
 
 #Introduction p {
