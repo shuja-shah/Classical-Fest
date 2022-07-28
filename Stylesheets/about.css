@@ -37,12 +37,9 @@ a {
   padding: 26px 18px;
 }
 
-.logoo {
-  justify-content: space-between !important;
-  align-items: center !important;
-}
 
-.logoo h3 {
+
+.logoo {
   font-family: 'COCOGOOSE Regular', sans-serif;
   font-size: calc(var(--fs-main) / 2.2);
   font-weight: 700;
@@ -200,6 +197,10 @@ a {
   padding: 26px 0;
   background-color: var(--clr-main);
 }
+.container-events{
+  display: grid;
+  row-gap: 20px;
+}
 
 .festival {
   height: 200px;
@@ -268,12 +269,13 @@ a {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
+  background-color: hsl(228, 5%, 23%);
 }
 
 #foti p {
   font-size: calc(var(--fs-main) / 3.2);
   font-weight: 600;
-  color: var(--clr-main-dark);
+  color: var(--clr-main);
   margin: 0;
   padding: 0 0 0 20px;
   letter-spacing: 0.6px;
