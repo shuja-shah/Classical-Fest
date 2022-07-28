@@ -37,12 +37,12 @@ a {
   padding: 26px 18px;
 }
 
-#logoo {
+.logoo {
   justify-content: space-between !important;
   align-items: center !important;
 }
 
-#logoo h3 {
+.logoo h3 {
   font-family: 'COCOGOOSE Regular', sans-serif;
   font-size: calc(var(--fs-main) / 2.2);
   font-weight: 700;
@@ -52,7 +52,7 @@ a {
   letter-spacing: 0.9px;
 }
 
-#logio {
+.logio {
   font-family: 'Lato', sans-serif;
   font-size: calc(var(--fs-main) / 2);
   font-weight: 500;
@@ -96,7 +96,7 @@ a {
 #ffSection {
   background: url('Vector/dry.png') repeat-x;
   display: grid;
-  row-gap: 24px;
+  row-gap: 75px;
   justify-content: center;
 }
 
@@ -138,6 +138,13 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--clr-main);
+}
+#P2-items{
+  display: grid;
+  background-color: var(--clr-main);
+  row-gap: 75px;
+  padding: 24px 18px;
 }
 
 .p2 p {
@@ -145,4 +152,72 @@ a {
   font-size: calc(var(--fs-main) / 2.4);
   font-weight: 600;
   color: var(--clr-main-dark);
+  text-align: center;
+}
+.P3 h3{
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 1.6);
+  font-weight: 700;
+  color: var(--clr-main-dark);
+  padding: 0;
+  text-align: center;
+  letter-spacing: 0.9px;
+}
+.P3-Description{
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 2.0);
+  font-weight: 600;
+  color: var(--clr-main-dark);
+  text-align: left;
+  padding: 16px 16px;
+  border: 5px solid var(--clr-main);
+  background-color: hsla(0, 0%, 90%, 0.9);
+}
+.myLogo{
+  justify-self: center;
+  font-size: 48px;
+  background-color: hsla(0, 0%, 90%, 0.9);
+  padding: 16px 23px;
+}
+
+#spanii{
+  font-size: 30px;
+}
+.meow{
+  font-family: 'COCOGOOSE Regular', sans-serif !important;
+  font-size: 32px;
+}
+#Past{
+  display: grid;
+  justify-items: center;
+  row-gap: 25px;
+}
+.festival{
+  height: 200px;
+  width: 300px;
+  background:url('Vector/Event1.PNG') no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  font-size: var(--fs-main);
+  color: var(--clr-main) ;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1.6px;
+  padding: 0 30px;
+}
+#secondFestival{
+  background: url('Vector/Event2.PNG') no-repeat;
+}
+
+.P4-title{
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 1.8);
+  font-weight: 600;
+  color: var(--clr-main-dark);
+  margin: 0;
+  padding: 0 0 15px 0;
+  letter-spacing: 0.5px;
+  text-align: center;
+  
 }
