@@ -349,10 +349,35 @@ a {
   }
   #Past{
     background-color: hsla(0, 0%, 90%, 0.9);
-
+    row-gap: 150px;
+    justify-items: center;
   }
+  .P4-title{
+    font-size: calc(var(--fs-main) * 1.1);
+  }
+
   .container-events{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
   }
-}
+  .festival{
+    width: 500px;
+    height: 300px;
+  }
+  .festival :hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+  }
+  #partner{
+    font-size: calc(var(--fs-main) / 1.2);
+    font-weight: 600;
+    color: hsl(0, 0%, 60%);
+    margin: 0;
+    padding: 20px 0 20px 0;
+    letter-spacing: 0.9px;
+  }
+  .uno{
+    font: 100px 'COCOGOOSE Regular', sans-serif;
+  }
+  }
