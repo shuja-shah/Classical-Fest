@@ -380,4 +380,10 @@ a {
   .uno{
     font: 100px 'COCOGOOSE Regular', sans-serif;
   }
+  #foti{
+    background-color: hsl(228, 5%, 23%);
+  }
+  #foti p {
+    color: hsl(0, 0%, 50%);
+  }
   }
