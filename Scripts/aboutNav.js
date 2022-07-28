@@ -4,6 +4,7 @@ const remove = document.getElementById('endl');
 const foti = document.getElementById('foti');
 const nagi = document.querySelector('nav');
 const nagi2 = document.getElementById('nagi');
+const bug = document.getElementById('Sponsors');
 
 click.addEventListener('click', () => {
   hide.style.display = 'none';
@@ -13,6 +14,7 @@ click.addEventListener('click', () => {
   nagi.classList.remove('desktop');
   nagi2.style.display = 'block';
   nagi.style.display = 'inline-block';
+  bug.style.opacity = '0';
 });
 
 remove.addEventListener('click', () => {
@@ -23,4 +25,6 @@ remove.addEventListener('click', () => {
   nagi.classList.add('desktop');
   nagi2.style.display = 'none';
   nagi.style.display = 'none';
+  bug.style.opacity = '1';
+  window.location.reload();
 });
