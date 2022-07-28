@@ -34,6 +34,10 @@ a {
   color: var(--clr-main-text);
 }
 
+.hideMe {
+  display: none;
+}
+
 .desktop {
   display: none;
 }
@@ -430,10 +434,34 @@ a {
     display: none;
   }
 
+  .hideMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: var(--clr-main-dark);
+    height: 50px;
+    border-radius: 4px;
+    align-items: center;
+  }
+
+  .darkList {
+    display: flex;
+  }
+
+  .darkList li {
+    padding: 10px;
+  }
+
+  .darkList li a {
+    color: var(--clr-main);
+    font-family: 'Lato', sans-serif;
+  }
+
   .desktop {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
   }
 
   .desktop h3 {
@@ -450,10 +478,10 @@ a {
     font-weight: 600;
   }
 
-  #navBarr li :hover {
+  #navBarr :hover {
     color: var(--clr-main-text);
-    border-bottom: 2px solid var(--clr-main-text);
     transition: 0.1s ease-in-out;
+    transform: scale(1.1);
   }
 
   #home {
