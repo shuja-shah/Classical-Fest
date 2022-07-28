@@ -37,8 +37,6 @@ a {
   padding: 26px 18px;
 }
 
-
-
 .logoo {
   font-family: 'COCOGOOSE Regular', sans-serif;
   font-size: calc(var(--fs-main) / 2.2);
@@ -197,7 +195,8 @@ a {
   padding: 26px 0;
   background-color: var(--clr-main);
 }
-.container-events{
+
+.container-events {
   display: grid;
   row-gap: 20px;
 }
