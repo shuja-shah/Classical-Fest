@@ -87,6 +87,13 @@ a {
   transition: 0.3s ease-in-out;
 }
 
+.spani {
+  background: #ec5242;
+  background: linear-gradient(to right, #ec5242 42%, #ff006f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .social a {
   color: var(--clr-main-text);
   padding: 10px;
@@ -151,11 +158,13 @@ a {
   font-weight: 600;
   color: var(--clr-main-text);
   margin: 0;
+
 }
 
 #context {
-  border: 4px solid white;
+  border: 1px solid var(--clr-main);
   margin: 28px 10px;
+  background-color: hsl(0, 0%, 100%);
 }
 
 #context p {
