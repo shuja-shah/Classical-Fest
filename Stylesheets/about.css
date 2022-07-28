@@ -15,26 +15,33 @@
   --ff-secondary: 'Lato, sans-serif';
   --fs-main: 2.5rem;
 }
-body{
+
+body {
   padding: 0;
   margin: 0;
 }
-ul{
+
+ul {
   list-style: none;
 }
-a{
+
+a {
   text-decoration: none;
 }
-.desktop{
+
+.desktop {
   display: none;
 }
+
 #ham {
   padding: 26px 18px;
 }
-#logoo{
+
+#logoo {
   justify-content: space-between !important;
   align-items: center !important;
 }
+
 #logoo h3 {
   font-family: 'COCOGOOSE Regular', sans-serif;
   font-size: calc(var(--fs-main) / 2.2);
@@ -44,18 +51,21 @@ a{
   align-self: flex-start;
   letter-spacing: 0.9px;
 }
-#logio{
+
+#logio {
   font-family: 'Lato', sans-serif;
   font-size: calc(var(--fs-main) / 2);
   font-weight: 500;
   color: var(--clr-main-text);
 }
-#endl{
+
+#endl {
   font-size: 50px;
   padding-right: 25px;
   cursor: pointer;
 }
-#nagi li{
+
+#nagi li {
   font-family: 'Lato', sans-serif;
   font-size: calc(var(--fs-main) / 1.5);
   font-weight: 500;
@@ -65,15 +75,32 @@ a{
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-#nagi li a{
+
+.p2 a {
+  color: var(--clr-main-dark);
+  font-family: 'Lato', sans-serif;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+#nagi li a {
   color: var(--clr-main-dark);
   margin: 0;
   padding: 0;
 }
-#goBack{
+
+#goBack {
   color: var(--clr-main-text) !important;
 }
-.heading1{
+
+#ffSection {
+  background: url('Vector/dry.png') repeat-x;
+  display: grid;
+  row-gap: 24px;
+  justify-content: center;
+}
+
+.heading1 {
   font-family: 'COCOGOOSE Regular', sans-serif;
   font-size: var(--fs-main);
   font-weight: 600;
@@ -81,23 +108,41 @@ a{
   margin: 0;
   padding: 0;
   letter-spacing: 1.3px;
+  text-align: center;
+}
 
+.P1-items p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  color: var(--clr-main-dark);
+  margin: 0;
+  text-align: left;
 }
-.P1-items p{
-   
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-    color: var(--clr-main-dark);
-    margin: 0;
-    background-color: white;
-    text-align: left;
-}
+
 .P1-items {
-  border: 1 solid var(--clr-main);
+  border: 5px solid white;
+  padding: 10px;
+  background-color: white;
 }
-.a{
+
+.a {
   width: calc(var(--fs-main) / 1);
   height: 2px;
   background-color: var(--clr-main-text);
-  margin: 13px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p2 p {
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 2.4);
+  font-weight: 600;
+  color: var(--clr-main-dark);
 }
