@@ -386,4 +386,15 @@ a {
   #foti p {
     color: hsl(0, 0%, 50%);
   }
+  .logoo{
+    font-family: 'COCOGOOSE Regular', sans-serif !important;
+    font-size: 20px;
+    color: var(--clr-main-dark);
+  }
+  .logio{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--clr-main-text);
+  }
   }
