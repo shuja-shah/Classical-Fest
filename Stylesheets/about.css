@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;400;500;600;700;800&family=Lato&family=Poppins:wght@100;300;400;500;600;700&family=Roboto+Mono:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@font-face {
+  font-family: 'COCOGOOSE Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('COCOGOOSE Regular'), url('Fonts/cocogoose_trial.woff') format('woff');
+}
+
+:root {
+  --clr-main: #d3d3d3;
+  --clr-main-dark: #272321;
+  --clr-main-text: #ec5242;
+  --ff-primary: 'COCOGOOSE Regular, sans-serif';
+  --ff-secondary: 'Lato, sans-serif';
+  --fs-main: 2.5rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.desktop {
+  display: none;
+}
+
+#ham {
+  padding: 26px 18px;
+}
+
+.logoo {
+  font-family: 'COCOGOOSE Regular', sans-serif;
+  font-size: calc(var(--fs-main) / 2.2);
+  font-weight: 700;
+  color: var(--clr-main-dark);
+  padding: 0;
+  align-self: flex-start;
+  letter-spacing: 0.9px;
+}
+
+.logio {
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 2);
+  font-weight: 500;
+  color: var(--clr-main-text);
+}
+
+#endl {
+  font-size: 50px;
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+#nagi li {
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 1.5);
+  font-weight: 500;
+  padding-top: 35px;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.p2 a {
+  color: var(--clr-main-dark);
+  font-family: 'Lato', sans-serif;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+#nagi li a {
+  color: var(--clr-main-dark);
+  margin: 0;
+  padding: 0;
+}
+
+#goBack {
+  color: var(--clr-main-text) !important;
+}
+
+#ffSection {
+  background: url('Vector/dry.png') repeat-x;
+  display: grid;
+  row-gap: 75px;
+  justify-items: center;
+}
+
+.heading1 {
+  font-family: 'COCOGOOSE Regular', sans-serif;
+  font-size: var(--fs-main);
+  font-weight: 600;
+  color: var(--clr-main-text);
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1.3px;
+  text-align: center;
+}
+
+.P1-items p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  color: var(--clr-main-dark);
+  margin: 0;
+  text-align: left;
+}
+
+.P1-items {
+  border: 5px solid white;
+  padding: 10px;
+  background-color: white;
+}
+
+.a {
+  width: calc(var(--fs-main) / 1);
+  height: 2px;
+  background-color: var(--clr-main-text);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--clr-main);
+}
+
+#P2-items {
+  display: grid;
+  background-color: var(--clr-main);
+  row-gap: 75px;
+  padding: 24px 18px;
+}
+
+.p2 p {
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 2.4);
+  font-weight: 600;
+  color: var(--clr-main-dark);
+  text-align: center;
+}
+
+.P3 h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 1.6);
+  font-weight: 700;
+  color: var(--clr-main-dark);
+  padding: 0;
+  text-align: center;
+  letter-spacing: 0.9px;
+}
+
+.P3-Description {
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 2);
+  font-weight: 600;
+  color: var(--clr-main-dark);
+  text-align: left;
+  padding: 16px 16px;
+  border: 5px solid var(--clr-main);
+  background-color: hsla(0, 0%, 90%, 0.9);
+}
+
+.myLogo {
+  justify-self: center;
+  font-size: 48px;
+  background-color: hsla(0, 0%, 90%, 0.9);
+  padding: 16px 23px;
+}
+
+#spanii {
+  font-size: 30px;
+}
+
+.meow {
+  font-family: 'COCOGOOSE Regular', sans-serif !important;
+  font-size: 32px;
+}
+
+#Past {
+  display: grid;
+  justify-items: center;
+  row-gap: 25px;
+  padding: 26px 0;
+  background-color: var(--clr-main);
+}
+
+.container-events {
+  display: grid;
+  row-gap: 20px;
+}
+
+.festival {
+  height: 200px;
+  width: 300px;
+  background: url('Vector/Event1.PNG') no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  font-size: var(--fs-main);
+  color: var(--clr-main);
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1.6px;
+  padding: 0 30px;
+}
+
+#secondFestival {
+  background: url('Vector/Event2.PNG') no-repeat;
+}
+
+.P4-title {
+  font-family: 'Lato', sans-serif;
+  font-size: calc(var(--fs-main) / 1.8);
+  font-weight: 600;
+  color: var(--clr-main-dark);
+  margin: 0;
+  padding: 0 0 15px 0;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+#Sponsors {
+  background-color: hsl(228, 5%, 23%);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.Sponsers-Details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#partner {
+  font-size: calc(var(--fs-main) / 1.4);
+  font-weight: 600;
+  color: hsl(0, 0%, 60%);
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.9px;
+}
+
+.sponsor-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.uno {
+  font-size: var(--fs-main);
+  color: hsl(0, 0%, 50%);
+}
+
+#foti {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(228, 5%, 23%);
+}
+
+#foti p {
+  font-size: calc(var(--fs-main) / 3.2);
+  font-weight: 600;
+  color: var(--clr-main);
+  margin: 0;
+  padding: 0 0 0 20px;
+  letter-spacing: 0.6px;
+  font-family: 'Lato', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  #ham {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #endl {
+    display: none;
+  }
+
+  #nagi li {
+    padding: 14px;
+    font-size: calc(var(--fs-main) / 2.2);
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .festival :hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+  }
+
+  #nagi :hover {
+    color: var(--clr-main-text);
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
+
+  #ffSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: repeat;
+    height: 100%;
+    padding: 16px 100px;
+  }
+
+  .heading1 {
+    font-size: calc(var(--fs-main) * 1.2);
+  }
+
+  .P1-items {
+    width: 600px;
+    font-size: calc(var(--fs-main) / 1.4);
+    padding: 48px;
+  }
+
+  .p2 {
+    background: url('Vector/dry.png');
+    background-position: 90% 90%;
+  }
+
+  #P2-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .P3 h3 {
+    font-size: calc(var(--fs-main) * 1.1);
+  }
+
+  .a {
+    width: calc(var(--fs-main) * 1.5);
+    height: 5px;
+  }
+
+  .P3-Description {
+    font-size: calc(var(--fs-main) / 1.8);
+    padding: 16px 16px;
+    border: 1px solid var(--clr-main-dark);
+    background-color: hsla(0, 0%, 90%, 0.9);
+    width: 600px;
+  }
+
+  #Past {
+    background-color: hsla(0, 0%, 90%, 0.9);
+    row-gap: 150px;
+    justify-items: center;
+  }
+
+  .P4-title {
+    font-size: calc(var(--fs-main) * 1.1);
+  }
+
+  .container-events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+  }
+
+  .festival {
+    width: 500px;
+    height: 300px;
+  }
+
+  #partner {
+    font-size: calc(var(--fs-main) / 1.2);
+    font-weight: 600;
+    color: hsl(0, 0%, 60%);
+    margin: 0;
+    padding: 20px 0 20px 0;
+    letter-spacing: 0.9px;
+  }
+
+  .uno {
+    font: 100px 'COCOGOOSE Regular', sans-serif;
+  }
+
+  #foti {
+    background-color: hsl(228, 5%, 23%);
+  }
+
+  #foti p {
+    color: hsl(0, 0%, 50%);
+  }
+
+  .logoo {
+    font-family: 'COCOGOOSE Regular', sans-serif !important;
+    font-size: 20px;
+    color: var(--clr-main-dark);
+  }
+
+  .logio {
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--clr-main-text);
+  }
+}
