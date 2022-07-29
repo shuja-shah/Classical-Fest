@@ -424,6 +424,21 @@ a {
   display: none;
 }
 
+.dos {
+  font-size: var(--fs-main);
+  padding-top: 35px;
+}
+
+.fs-main {
+  overflow: hidden;
+  font-size: calc(var(--fs-main) / 2.4);
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.87px;
+  text-align: left;
+  padding-left: 5px;
+}
+
 @media screen and (min-width: 768px) {
   #hamburger {
     display: none;
@@ -533,17 +548,17 @@ a {
 
   .program-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
   }
 
   .program-item {
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 300px;
     flex-wrap: wrap;
     justify-content: center;
-    width: 300px;
+    width: 250px;
     align-items: center;
   }
 
