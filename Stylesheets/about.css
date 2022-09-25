@@ -4,7 +4,7 @@
   font-family: 'COCOGOOSE Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('COCOGOOSE Regular'), url('Fonts/cocogoose_trial.woff') format('woff');
+  src: local('COCOGOOSE Regular'), url('../Fonts/cocogoose_trial.woff') format('woff');
 }
 
 :root {
@@ -89,7 +89,7 @@ a {
 }
 
 #ffSection {
-  background: url('Vector/dry.png') repeat-x;
+  background: url('./Vector/dry.png') repeat-x;
   display: grid;
   row-gap: 75px;
   justify-items: center;
@@ -204,7 +204,7 @@ a {
 .festival {
   height: 200px;
   width: 300px;
-  background: url('Vector/Event1.PNG') no-repeat;
+  background: url('./Vector/Event1.PNG') no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +217,7 @@ a {
 }
 
 #secondFestival {
-  background: url('Vector/Event2.PNG') no-repeat;
+  background: url('./Vector/Event2.PNG') no-repeat;
 }
 
 .P4-title {
@@ -336,7 +336,7 @@ a {
   }
 
   .p2 {
-    background: url('Vector/dry.png');
+    background: url('./Vector/dry.png');
     background-position: 90% 90%;
   }
 

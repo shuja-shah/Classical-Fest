@@ -4,7 +4,7 @@
   font-family: 'COCOGOOSE Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('COCOGOOSE Regular'), url('Fonts/cocogoose_trial.woff') format('woff');
+  src: local('COCOGOOSE Regular'), url('../Fonts/cocogoose_trial.woff') format('woff');
 }
 
 :root {
@@ -116,7 +116,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url('Vector/dry.png') repeat;
+  background: url('./Vector/dry.png') repeat;
 }
 
 #Introduction {
@@ -140,7 +140,7 @@ a {
   position: absolute;
   top: -7%;
   left: 80%;
-  background: url('Vector/music.png') no-repeat;
+  background: url('./Vector/music.png') no-repeat;
   height: 25px;
   width: 25px;
   background-size: cover;
@@ -194,7 +194,7 @@ a {
 .program {
   display: grid;
   row-gap: 28px;
-  background: url('Vector/program.png') repeat;
+  background: url('./Vector/program.png') repeat;
 }
 
 .Center-grid {
@@ -535,7 +535,7 @@ a {
     display: grid;
     grid-template-rows: auto;
     justify-content: center;
-    background: url('Vector/Program.PNG') repeat;
+    background: url('./Vector/Program.PNG') repeat;
 
     /* height: 750px; */
     justify-items: center;
@@ -608,7 +608,7 @@ a {
   }
 
   .btn-primary {
-    background: url('Vector/Program.PNG');
+    background: url('./Vector/Program.PNG');
     text-decoration: underline;
     font-size: calc(var(--fs-main) / 2.4);
   }
