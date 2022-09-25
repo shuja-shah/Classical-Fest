@@ -6,7 +6,7 @@ const artist = [
     description:
       'Abida Parveen is a sufi singer from Sindh, She Specalizes in the art of'
       + ' Sufism and she devotes her life to the spirituality of the world.',
-    img: 'Assets/AbidaP.png',
+    img: './Assets/AbidaP.png',
   },
   {
     name: 'Deva Premal',
@@ -15,7 +15,7 @@ const artist = [
     description:
       'Deva Premal is a singer known for introducing Sanskrit mantras into the mainstream'
       + 'Her meditative, spiritual music is produced with Prabhu Music',
-    img: 'Assets/Dava.jfif',
+    img: './Assets/Dava.jfif',
   },
   {
     name: 'Roger Waters',
@@ -24,7 +24,7 @@ const artist = [
     description:
       'George Roger Waters is an English musician, singer songwriter and composer'
       + ' who is known for his work in the genre of Spritual music.',
-    img: 'Assets/RogerWaters.png',
+    img: './Assets/RogerWaters.png',
   },
   {
     name: 'Ludovico Einaudi',
@@ -33,7 +33,7 @@ const artist = [
     description:
       'Ludovico Maria Enrico Einaudi OMRI is an Italian pianist and composer.'
       + 'Einaudi began his career as a classical composer, and world music',
-    img: 'Assets/pianoman.png',
+    img: './Assets/pianoman.png',
   },
   {
     name: 'Batzorig Vaanchig',
@@ -42,7 +42,7 @@ const artist = [
     description:
       'Batzorig Vaanchig Is an Mongolion Thorat Singer who specializes '
       + ' the fire of the great Mongol  Leader Gengis Khan.',
-    img: 'Assets/Batzorig.jfif',
+    img: './Assets/Batzorig.jfif',
   },
   {
     name: 'Andre Watts',
@@ -51,7 +51,7 @@ const artist = [
     description:
       'Andre Watts is an American singer, songwriter, and musician. He is known for his'
       + ' work in the genre of Classical Music.',
-    img: 'Assets/Andre.jfif',
+    img: './Assets/Andre.jfif',
   },
 ];
 
