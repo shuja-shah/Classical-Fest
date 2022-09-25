@@ -146,11 +146,3 @@ function desktop() {
   }
 }
 desktop();
-
-function refresh() {
-  window.location.reload();
-}
-
-window.addEventListener('resize', () => {
-  refresh();
-});
