@@ -13,9 +13,8 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://shuja-shah.github.io/Festival.github.io/)
-Note :- This is a demo of the project. It may Defer From the Original Project.
-
+[Live Demo Link](https://fest-classical.netlify.app/)
+See a Live Presentation of the Project [Here](https://www.loom.com/share/9dc1eebd6002490cad06803f95a0456c)
 ## Getting Started
 
 **To get started, Click on the live demo link above.**
